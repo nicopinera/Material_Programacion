@@ -1,0 +1,11 @@
+# Clase 0
+- En java todo se encapsula dentro de una clase (**public class NombreClase{}**)
+- Por lo general se utiliza CamelCase como regla de nombramiento
+- Los comentarios simples se realizan con //
+- Los comentarios de multiples lineas se realizan con /**/
+- **public**: modificador de acceso *publico*
+- **satic**: se puede ejecutar sin crear una instancia de la clase
+- **void**: no devuelve nada la funcion
+- **public static void main(String[] args){}** Funcion principal
+- **\n**: Proboca un salto de linea
+- **System.out.println()**: para mostrar por pantalla
