@@ -1,5 +1,6 @@
 import os
-os.system('cls')
+
+os.system("cls")
 
 """ 
  * Escribe un programa que muestre por consola (con un print) los
@@ -10,25 +11,23 @@ os.system('cls')
  * - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
 """
 
-for i in range(1,101):
-    if i%3 == 0 and i%5 == 0:
+for i in range(1, 101):
+    if i % 3 == 0 and i % 5 == 0:
         print(f"{i}) fizzbuzz")
-    elif i%3 == 0:
+    elif i % 3 == 0:
         print(f"{i}) fizz")
-    elif i%5 == 0:
+    elif i % 5 == 0:
         print(f"{i}) buzz")
     else:
         print(f"{i}) {i}")
 
-#1:11:25
+# 1:11:25
 
-def anagrama(palabra1,palabra2):
+
+def anagrama(palabra1, palabra2):
     if palabra1 == palabra2:
         return False
     return sorted(palabra1) == sorted(palabra2)
 
-print(anagrama("Hola","Hola"))
 
-
-
-    
+print(anagrama("Hola", "Hola"))

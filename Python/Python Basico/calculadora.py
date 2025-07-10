@@ -18,6 +18,7 @@ Validar:
 Que la opción del menú sea válida. Que el divisor no sea cero en el caso de la división
 """
 
+
 def menu():
     print("Bienvenido a la calculadora")
     print("Seleccione una operacion:")
@@ -27,20 +28,24 @@ def menu():
     print("4. Dividir")
     print("5. Salir")
 
-def suma(a,b):
-    return a+b
 
-def resta(a,b):
-    return a-b
+def suma(a, b):
+    return a + b
 
-def multiplicar(a,b):
-    return a*b
 
-def dividir(a,b):
+def resta(a, b):
+    return a - b
+
+
+def multiplicar(a, b):
+    return a * b
+
+
+def dividir(a, b):
     if b == 0:
         return "Division por cero"
     else:
-        return a/b
+        return a / b
 
 
 ejecutar = True
@@ -50,26 +55,25 @@ while ejecutar:
     if opcion == 1:
         a = int(input("Numero 1:"))
         b = int(input("Numero 2:"))
-        resultado = suma(a,b)
+        resultado = suma(a, b)
         print(f"Resultado de la suma: {resultado}")
         print("-------------------------------------")
     elif opcion == 2:
         a = int(input("Numero 1:"))
         b = int(input("Numero 2:"))
-        resultado = resta(a,b)
+        resultado = resta(a, b)
         print(f"Resultado de la resta: {resultado}")
         print("-------------------------------------")
     elif opcion == 3:
         a = int(input("Numero 1:"))
         b = int(input("Numero 2:"))
-        resultado = multiplicar(a,b)
+        resultado = multiplicar(a, b)
         print(f"Resultado de la multiplicacion: {resultado}")
         print("-------------------------------------")
     elif opcion == 4:
         a = int(input("Numero 1:"))
         b = int(input("Numero 2:"))
-        print("Resultado de la division:" , dividir(a,b))
+        print("Resultado de la division:", dividir(a, b))
         print("-------------------------------------")
     else:
         ejecutar = False
-
