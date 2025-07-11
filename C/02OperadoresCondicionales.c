@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define PI 3.14159 // Definicion de una constante
+#define CUBO(a) a*a*a //Macro - Similar a una funcion
 /*
 Operadores Condicionales y Condicionales
 Toma de decision, tenemos dos tipos
@@ -30,6 +31,12 @@ int main()
     {
         printf("No eres mayor de edad\n");
     }
+    int suma,a,b;
+    a = 3;
+    suma = a + PI; // Uso de la constante
+    printf("La Suma es es: %d\n",suma);
+    b = 4;
+    printf("El cubo de la variabe es: %i\n",CUBO(b));
     getchar();
     return 0;
 }
