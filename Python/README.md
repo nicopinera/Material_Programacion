@@ -1,12 +1,7 @@
 # Material de Python
+Material sobre Lenguaje Python. Cursos realizados
 
-Juego creado en python aplicando patrones de diseño
-
-comandos importantes de git
-* git add . -> subir al repo local todos los archivos actualizados, se puede cambiar el punto por el nombre del archivo directamente
-
-* git status -> conocer el estatus de todos los archivos
-
-* git push origin master -> subir a github todas las actualizaciones
-
-* git pull -> descargar todas las actualizaciones
+1. MoureDev - Python Basico
+2. MoureDev - Python Intermedio
+3. Cisco - Fundamentos de Python 1
+4. Cisco - Fundamentos de Python 2
