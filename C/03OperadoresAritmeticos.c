@@ -31,25 +31,25 @@ int main()
     scanf("%d", &num2);
 
     resultado = num1 + num2; // Operacion de Suma
-    printf("El resultado de la suma es: %d \n", resultado);
+    printf("El resultado de la suma (+) es: %d \n", resultado);
 
     resultado = num1 - num2; // Operacion de Resta
-    printf("El resultado de la resta es: %d \n", resultado);
+    printf("El resultado de la resta (-) es: %d \n", resultado);
 
     resultado = num1 * num2; // Operacion de Multiplicacion
-    printf("El resultado de la multiplicacion es: %d \n", resultado);
+    printf("El resultado de la multiplicacion (*) es: %d \n", resultado);
 
     resDivision = num1 / num2; // Operacion de division
-    printf("El resultado de la division es: %.2f \n", resDivision);
+    printf("El resultado de la division (/) es: %.2f \n", resDivision);
 
     resultado = num1 % num2; // Operacion de modulo
     printf("El resultado del modulo es: %d \n", resultado);
 
     resultado++; // Incremento
-    printf("Incremento 1 %d\n", resultado);
+    printf("Incremento 1 ++ : %d\n", resultado);
 
     resultado--;
-    printf("Decremento 1 %d\n", resultado);
+    printf("Decremento 1 -- :%d\n", resultado);
     // Operacion Combinada
     resultado = a * (num1 + num2) + b * (b + num2) * c + d;
     printf("Resultado  %d\n", resultado);

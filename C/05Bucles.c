@@ -38,6 +38,7 @@ int main()
     {
         printf("Contador: %d \n", cont);
     }
+
     int notas, promedio, sumaNotas = 0;
     for (int i = 0; i < 10; i++)
     {
@@ -59,6 +60,26 @@ int main()
             printf("%d es Impar\n", i);
         }
     }
-
+    // Break y continue
+    int numero1 = 0;
+    while (numero1 <= 7)
+    {
+        if (numero1 == 2)
+        {
+            break; // Cuando llegue a 2 o a cumplir la condicion del if, finaliza el bucle
+        }
+        printf("%i\n", numero1);
+        numero1++;
+    }
+    // continue -> salta un paso del bucle
+    for (int i = 0; i < 10; i++)
+    {
+        if (i == 2)
+        {
+            // si se usa en un while, procurar aumentar el contador antes del continue;
+            continue;
+        }
+        printf("%d", i);
+    }
     return 0;
 }

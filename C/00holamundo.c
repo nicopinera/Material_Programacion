@@ -3,15 +3,18 @@
 
 // F6 para compilar y ejecutar
 // F8 para otra terminal
+
 /* Funcion main inicia la ejecucion del programa*/
 int main()
 {
     printf("Hola mundo\n");
     // Comentario de 1 Linea
+
     /*
     Comentarios de
     varias lineas
     */
+
     /*
     Secuencias de escape: Nos ayudan a modificar el mensaje que se quiere mostrar
     - \0 : Nulo
@@ -33,7 +36,8 @@ int main()
     printf("\n Retorno de Carro \r");
     printf("\n Signo de interrogacion \?");
     printf("\n Barra invertida \\");
+
     getchar(); // Para que no se cierre automaticamente
 
-    return 0;
+    return 0; // Fin del programa
 }

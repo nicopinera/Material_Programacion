@@ -6,6 +6,8 @@ int main()
     /*
     Arreglos:
     Vector de valores, se empieza desde el indice 0
+    Conjunto de datos que se almacenan el una variable
+    Entidad estatico, no cambia de tamaño durante la ejecucion
     */
 
     // Declaracion, se dicen los elementos o se establece el tamaño

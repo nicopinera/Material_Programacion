@@ -23,6 +23,7 @@ int main()
     printf("Ingresa tu edad\n");
     scanf("%d", &edad);
 
+    // Estructura if-else
     if (edad >= 18)
     {
         printf("Sos mayor de edad\n");
@@ -39,6 +40,8 @@ int main()
     int numero;
     printf("Ingrese un numero\n");
     scanf("%d", &numero);
+
+    // estructura switch
     switch (numero)
     {
     case 1:
