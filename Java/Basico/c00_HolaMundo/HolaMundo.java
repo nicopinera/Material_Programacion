@@ -1,4 +1,4 @@
-package c00_HolaMundo;
+
 
 // Todo se encapsula dentro de una clase
 // Nombramiento: CamelCase para el nombre de las clases
