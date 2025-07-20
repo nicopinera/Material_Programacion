@@ -1,26 +1,44 @@
 package c02_Operadores;
 
+/* Los operadores nos permiten realizar operaciones entre variables
+ * 0. Asignacion de valores (=) 
+ * 1. Aritmeticos
+ * - Suma (+)
+ * - Resta (-)
+ * - Multiplicacion (*)
+ * - Division (/): Devuelve el resultado segun el tipo de dato de los operandos
+ * - Modulo o Residuo (%): Devuelve el resto de la division
+ * 
+ * 2. Logicos, relacionales y Booleanos
+ * - Mayor que (>)
+ * - Menor que (<)
+ * - Mayor o igual que (>=)
+ * - Menor o igual que (<=)
+ * - Distinto que (!=)
+ * - Igual que (==): Compara valores, no objetos
+ * - AND (&&)
+ * - OR (||)
+ * 
+ * 3. Incremento o Decremento
+ * - Incremento (++): Incrementa en 1
+ * - Decremento (--): Decrementa en 1
+ * - Incremento (+=n): Incrementa en N
+ * - Decremento (-=n): Decrementa en N
+ * 
+ * 4. Concatenar cadenas (+): Se aplica con textos
+*/
 public class operadores {
-    /*
-     * Definicion de una funcion:
-     * public static void suma(int a, int b){
-     * var suma = a + b;
-     * System.out.println("Suma= " + suma);
-     * }
-     */
-    // Los operadores nos permiten realizar operaciones entre variables
     public static void main(String[] args) {
         var a = 5.0;
         var b = 3;
         // Operadores Aritmeticos
-        // suma(a,b);
         System.out.println("---------------------");
         System.out.println("OPERADORES ARITMETICOS");
         System.out.println("Suma: " + (a + b));
         System.out.println("Resta: " + (a - b));
         System.out.println("Multiplicacion: " + (a * b));
-        System.out.println("Division: " + (a / b)); // Da el resultado segun el tipo de dato
-        System.out.println("Resto: " + (a % b)); // Modulo: Da el resto de la suma
+        System.out.println("Division: " + (a / b));
+        System.out.println("Resto: " + (a % b));
 
         System.out.println("---------------------");
         System.out.println("OPERADORES ASIGNACION");
@@ -92,7 +110,7 @@ public class operadores {
         b--;
         System.out.println("Valor de b -1: " + b);
         System.out.println("---------------------");
-        
+
     }
 
 }

@@ -1,4 +1,4 @@
-package c05_estructurasDatos;
+package c06_estructurasDatos;
 
 public class EstructurasDatos {
     public static void main(String[] args) {

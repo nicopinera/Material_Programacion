@@ -1,5 +1,21 @@
 package c01_DatosYVariables;
 
+/*
+ * Tipos primitivos de datos:
+ * 1. Enteros
+ * - int
+ * - short
+ * - long
+ * - Byte
+ * 2. Coma flotante (decimales)
+ * - float
+ * - double
+ * 3. Caracteres
+ * - char ('b')
+ * 4. Boolean 
+ * - True or False
+ */
+
 public class TiposDatos {
     // int miEntero2; fuera del metodo
     public static void main(String[] args) {

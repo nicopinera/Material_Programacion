@@ -1,4 +1,4 @@
-package c05_estructurasDatos;
+package c06_estructurasDatos;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package c06_loop;
+package c07_loop;
 
 import java.util.HashMap;
 import java.util.HashSet;
