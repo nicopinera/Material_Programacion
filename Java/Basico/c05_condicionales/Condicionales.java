@@ -1,4 +1,4 @@
-package c04_condicionales;
+package c05_condicionales;
 
 public class Condicionales {
     public static void main(String[] args) {
