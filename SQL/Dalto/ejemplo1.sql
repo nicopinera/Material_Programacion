@@ -1,18 +1,12 @@
-CREATE TABLE "users"
-(
-    Nombre TEXT,
-    Apellido TEXT,
-    Edad INTEGER
-)
-/* Utilizando bases de datos*/
+-- Definiciones
+	-- query es una consulta
+	-- campos son columnas
+	-- registros son filas de datos
 
-/* INSERT SIRVE PARA GUARDAD VALORES EN UNA TABLA ESPECIFICA*/
-INSERT INTO users
-    (Nombre,Apellido,Edad)
-VALUES
-    ('Nico', 'Piñera', 22),
-    ('Lucas', 'Dalto', 23);
+-- Cargo valores
+	-- le tengo que decir que parametros voy a cargar
+INSERT INTO usuarios (Nombre,Apellido,Edad) 
+VALUES ('Nicolas','Piñera',22),('Geldre','OrcaMorada',28);
 
-/* EL SELECT ME SIRVE PARA SELECCIONAR CAMPOS ESPECIFICOS D UNA TABLA*/
-SELECT * FROM users;
-
+-- selecciono todo de una tabla
+SELECT * FROM usuarios
