@@ -32,3 +32,7 @@ conectarse_nodo:
 
 ans_establecer_inventario:
 	ansible -i $(FILE_INVENTARIO) all -m ping;\
+
+# Generar Archivo de Configuracion para ansible
+gen_config:
+	ansible-config init --disabled > ansible.cfg;
