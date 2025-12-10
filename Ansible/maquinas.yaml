@@ -2,6 +2,9 @@ all:
   host:
     #maquinas sin agrupar
     ubuntu1:
+    # Variables de host
+      puerto: 9000
+      entorno: desarrollo
     
   #grupos de maquinas  
   children:
