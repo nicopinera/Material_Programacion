@@ -1,0 +1,18 @@
+all:
+  host:
+    #maquinas sin agrupar
+    ubuntu1:
+    
+  #grupos de maquinas  
+  children:
+    debian:
+      host:
+        debian1:
+        debian2:
+    rocky:
+      host:
+        rocky1:
+        rocky2:
+    servidores_datos:
+      host:
+        sql1:
