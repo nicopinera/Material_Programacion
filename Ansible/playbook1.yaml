@@ -1,0 +1,30 @@
+---
+- name: Primer play
+  host: all # maquinas
+
+  tasks:
+  - name: hacer ping
+    #Modulo ping
+    ansible.builtin.ping:
+  - name: Crear Archivo
+    # Modulo shell para ejecutar comandos en la shell
+    ansible.builtin.shell:
+      touch /tmp/fichero1.txt
+
+- name: Instalar Nginx
+  host: debian
+  
+  tasks:
+  - name: Parar Apache
+    include_tasks: ./task/parar_apache.yaml
+
+  - name: Instalar Nginx
+    # Modulo para instalar o gestionar paquetes
+    ansible.builtin.apt:
+      name: nginx
+      state: present
+      update_cache: yes
+  - name: Iniciar Nginx
+    ansible.builtin.service:
+      name: nginx
+      state: started

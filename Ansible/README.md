@@ -10,10 +10,10 @@ En el nodo gestionado necesitamos Python, SSH (para comunicacion), crear un usua
 
 ```bash
 # no es necesario establecer de donde saca el inventario
-ansible all -m ping 
+ansible all -m ping
 
 # se lo envio a un maquina especifica
-ansible maquina1 -m ping 
+ansible maquina1 -m ping
 
 # dentro del inventario puedo agrupar para trabajar con grupos especificos
 ansible grup1 -m ping
@@ -21,5 +21,14 @@ ansible grup1 -m ping
 # Utilizar las maquinas sin grupo
 ansible ungrouped -m ping
 ```
+
+**PlayBoock**: Plantilla que nos permite ejecutar entornos complejos contra nuestra infraestructura para automatizarlos. Se utilizan ficheros **.yaml**. Esta conformado por tareas/task, las tareas se agrupan dentro de lo que se denomina Play, multiples play se ejecutan dentro del playbook.
+
+```bash
+# Ejecutar un playbook
+ansible-playbook nombre_playbook.yaml
+```
+
+Se pueden crear ficheros de tareas e incluirlos dentro del playbook.
 
 ---
